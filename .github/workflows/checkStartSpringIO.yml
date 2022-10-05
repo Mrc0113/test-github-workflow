@@ -36,5 +36,4 @@ jobs:
              Workflow name = `${{ github.workflow }}`
              Job -           `${{ github.job }}`
              ### Error Info
-             Failed to get pom from start.spring.io with solace, cloud-stream and latest boot version. 
-             HTTP Response = ${{ steps.checkStartSpringIO.outputs.response }}
+             See Failed Run link above for more info, but the likley culprit is a new version of Spring Boot has been released and we need to open an issue over at [start.spring.io](https://github.com/spring-io/start.spring.io/issues) to have them re-enable Solace. 
