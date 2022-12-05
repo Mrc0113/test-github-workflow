@@ -1,8 +1,8 @@
 name: start.spring.io checker
 on:
   schedule:
-    # Run at midnight every day
-    - cron: "0 0 * * *"
+    # Run at 8pm on Monday
+    - cron: "0 20 * * Mon"
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
